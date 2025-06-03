@@ -1,0 +1,16 @@
+[package]
+name = "rusqlite_kv"
+version = "0.1.0"
+edition = "2024"
+authors = ["Caleb Couch <caleb@orange.me>"]
+description = "Keyvalue wrapper on rusqlite database"
+license = "BSD-3-Clause"
+repository = "https://github.com/ramp-stack/rusqlite_kv"
+
+
+
+[dependencies]
+hex = "0.4.3"
+rusqlite = "0.34.0"
+serde = "1.0.219"
+serde_json = "1.0.140"
